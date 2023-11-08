@@ -1,57 +1,60 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
   font-family: "Outfit", sans-serif;
   font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
 
-.top {
-  background-color: #1f2937;
-  color: white;
-  padding: 0 200px;
-}
 a {
   text-decoration: none;
   color: white;
+  font-weight: 100;
 }
-
-.navbar {
+.navbar,
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
-  padding: 16px;
+  padding: 16px 800px 100px;
+  background-color: #1f2937;
+  color: white;
+}
+.header_left p {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 8px;
+}
+
+.nav-links a {
+  padding: 0 10px;
+}
+
+.logo {
+  font-weight: 700;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-.header_img {
-  height: 200px;
-  width: 600px;
-  background-color: gray;
-  /* width: auto; */
+.header_img img {
+  height: 292px;
+  padding-left: 18px;
 }
-
-.h_img {
-  height: 200px;
-  width: auto;
-  object-position: top;
-  object-fit: scale-down;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header_left {
+.h_signUp {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 30px;
+  border: none;
 }
