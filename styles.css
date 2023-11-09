@@ -26,8 +26,22 @@ a {
 
 .navbar {
   display: flex;
-  margin: 10px 10px 100px 10px;
+  margin: 20px 100px 100px 100px;
   justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  margin: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
 }
 
 .header {
@@ -46,10 +60,19 @@ a {
   max-width: 600px;
 }
 
+.header_left button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid #3882f6;
+  border-radius: 8px;
+  padding: 8px 25px;
+}
+
 h1 {
   font-size: 48px;
   font-weight: bold;
   color: #f9faf8;
+  margin: 0;
 }
 
 img.h_img {
