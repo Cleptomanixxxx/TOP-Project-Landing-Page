@@ -1,60 +1,103 @@
-* {
-  /* border: 1px solid red; */
-}
+/* * {
+  border: 1px solid red;
+} */
 
 body {
   font-family: "Outfit", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: 100;
-}
-.navbar,
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 800px 100px;
+.hero {
   background-color: #1f2937;
   color: white;
 }
-.header_left p {
-  font-size: 18px;
-  font-weight: 200;
-  margin-top: 8px;
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.nav-links a {
-  padding: 0 10px;
+.navbar {
+  display: flex;
+  margin: 10px 10px 100px 10px;
+  justify-content: space-between;
 }
 
-.logo {
-  font-weight: 700;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-h1 {
-  font-size: 48px;
-  font-weight: 900;
-  margin: 0;
+img.h_img {
+  max-height: 300px;
+  flex-shrink: 1;
 }
-h2 {
+.card_header {
   text-align: center;
-  padding: 20px 0;
   font-size: 36px;
   font-weight: bold;
 }
 
-.header_img img {
-  height: 292px;
-  padding-left: 18px;
+.item img {
+  max-height: 250px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
 }
-.h_signUp {
-  background-color: #3882f6;
+.item {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quote {
+  /* text-align: left; */
+  /* max-width: 500px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 100;
+  max-width: 1000px;
+  margin: 100px 0;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  border-radius: 8px;
-  padding: 8px 30px;
-  border: none;
+}
+.cta-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  /* max-width: 1000px; */
+  margin: 100px;
+  box-sizing: border-box;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+}
+
+.cta_left {
+  margin-right: 250px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+.footer p {
+  margin: 50px 0;
 }
