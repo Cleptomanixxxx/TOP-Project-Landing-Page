@@ -27,7 +27,7 @@ a {
 .navbar {
   display: flex;
   margin: 20px 100px 100px 100px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-links {
